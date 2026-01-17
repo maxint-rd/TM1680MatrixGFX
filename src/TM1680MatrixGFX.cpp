@@ -247,9 +247,9 @@ void TM1680MatrixGFX::testAllPixels()
     byte s = 0x01;  //init with 1 bit set
     for (uint8_t j = 0; j < 8; j++) {
       _bitmap[i] = s;
-      Serial.print(i);
-      Serial.print(".");
-      Serial.println(_bitmap[i], BIN);
+      //Serial.print(i);
+      //Serial.print(".");
+      //Serial.println(_bitmap[i], BIN);
       sendfullarray();
       delay(1);
       s = s << 1;  //bitshift
