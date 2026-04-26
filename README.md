@@ -3,6 +3,7 @@ Arduino library for LED Matrices using the TM1680 LED driver. Uses the [Adafruit
 
 ## Features & limitations
 - This first release only supports the TM1680 RGB LED matrix that is found in the BTL-350 bluetooth speaker by Denver. Future releases may have a generic TM1680 base class and matrix module specific derived classes.
+- If you want to use TM1680 on a monochrome LED matrix or if you want to use lots of digits on a 7-segment or alphanumeric LED display, have a look at the [TM16xx library](https://github.com/maxint-rd/TM16xx/).
 
 ## Examples
 See the [library examples](/examples) for more information on how to use this library.
